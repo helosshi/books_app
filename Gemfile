@@ -52,9 +52,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data'
+
+# rubocop-fjord
+group :development do
+  gem 'rubocop-fjord', require: false
+  gem 'rubocop-rails', require: false
+end
+
 # size_t error for M1 mac
 gem 'ffi', git: 'https://github.com/helosshi/ffi', branch: 'master'
 
 # add
 gem 'awesome_print'
 gem 'carrierwave'
+gem 'rails-i18n'
