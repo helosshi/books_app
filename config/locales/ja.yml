@@ -1,21 +1,18 @@
 ja:
   activerecord:
+    models:
+      book: '本'
     attributes:
       book:
         title: 'タイトル'
         memo: 'メモ'
         author: '著者'
         picture: '写真'
-
-  Books: '本棚'
-  Title: 'タイトル'
-  Memo: 'メモ'
-  Author: '著者'
-  Picture: '写真'
-  Show: '表示'
-  Edit: '編集'
-  Destroy: '削除'
-  Are you sure?: 'よろしいですか？'
-  New Book: '新規作成'
-  Back: '戻る'
-  Editing Book: '編集'
+        books: '本棚'
+        show: '表示'
+        edit: '編集'
+        destroy: '削除'
+        are_you_sure?: 'よろしいですか？'
+        new_book: '新規作成'
+        back: '戻る'
+        editing_book: '編集'
