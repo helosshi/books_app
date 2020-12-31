@@ -1,6 +1,6 @@
-<h1><%= t('activerecord.attributes.book.books')%></h1>
+<h1><%= t('views.book.books')%></h1>
 
 <%= render 'form', book: @book %>
 
-<%= link_to t('activerecord.attributes.book.show'), @book %> |
-<%= link_to t('activerecord.attributes.book.back'), books_path %>
+<%= link_to t('views.book.save'), @book %> |
+<%= link_to t('views.book.back'), books_path %>
